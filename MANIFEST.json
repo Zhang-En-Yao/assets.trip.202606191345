@@ -1,0 +1,19 @@
+{
+  "trip": "202606191345",
+  "title": "Saigon \u2014 Historical Itinerary",
+  "built": "2026-09-13T01:42:49+00:00",
+  "datasets": {
+    "content.json": {
+      "rows": 15,
+      "bytes": 22354
+    },
+    "places.json": {
+      "rows": 12,
+      "bytes": 3256
+    },
+    "streets.json": {
+      "rows": 3484,
+      "bytes": 506915
+    }
+  }
+}
