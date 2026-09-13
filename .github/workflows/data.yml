@@ -19,6 +19,10 @@ on:
 
 jobs:
   build:
+    # The called workflow cannot hold more than the caller grants, so the write it
+    # needs to commit and tag has to be declared here too.
+    permissions:
+      contents: write
     uses: Zhang-En-Yao/assets.core/.github/workflows/trip-data.yml@main
     with:
       places: ${{ inputs.places }}
